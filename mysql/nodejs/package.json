@@ -1,0 +1,20 @@
+{
+	"name": "learnsql",
+	"description": "A nodejs sample code for MySQL.",
+	"version": "1.0.0",
+	"main": "learnsql.js",
+	"scripts": {
+		"start": "node learnsql.js"
+	},
+	"keywords": [
+		"SQL",
+		"mysql",
+		"liaoxuefeng",
+		"Node.js"
+	],
+	"author": "Liao Xuefeng",
+	"dependencies": {
+		"mysql2": "1.6.4"
+	},
+	"devDependencies": {}
+}
