@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS students;
 CREATE TABLE classes (
     id BIGINT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
-    PRIMARY KEY (`id`)
+    PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- 创建students表：
@@ -22,7 +22,7 @@ CREATE TABLE students (
     name VARCHAR(100) NOT NULL,
     gender VARCHAR(1) NOT NULL,
     score INT NOT NULL,
-    PRIMARY KEY (`id`)
+    PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- 插入classes记录：
